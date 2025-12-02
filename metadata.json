@@ -1,0 +1,5 @@
+{
+  "name": "MedNéon",
+  "description": "Système de gestion de cabinet médical futuriste (SPA). Gestion patients, RDV, médecins et dossiers sans backend.",
+  "requestFramePermissions": []
+}
