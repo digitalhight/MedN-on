@@ -1,20 +1,14 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# MedNéon
 
-# Run and deploy your AI Studio app
+Application de gestion de cabinet médical futuriste (SPA).
 
-This contains everything you need to run your app locally.
+## Déploiement sur Coolify
 
-View your app in AI Studio: https://ai.studio/apps/drive/1uWky9G6YEqlVGUbJDJaGJ6_YcyGFnaNP
+Ce projet est prêt à être déployé comme une **Static Site** sur Coolify.
 
-## Run Locally
+1. **Source** : Connectez votre dépôt GitHub.
+2. **Build Command** : `npm install && npm run build`
+3. **Publish Directory** : `dist`
+4. **Configuration** : Aucune variable d'environnement complexe n'est requise.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+L'application utilise `vite` avec `base: './'` pour assurer que les assets (JS/CSS) sont chargés correctement via des chemins relatifs. Le fichier `public/_redirects` gère le routing côté client.
