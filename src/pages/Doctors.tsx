@@ -1,4 +1,3 @@
-import React from 'react';
 import { ShieldCheck, Clock } from 'lucide-react';
 import { Card, Badge } from '../components/ui';
 import { useDataStore } from '../services/storage';

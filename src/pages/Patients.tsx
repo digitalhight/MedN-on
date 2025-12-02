@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Plus, Search, MoreHorizontal, X, User } from 'lucide-react';
-import { Card, Button, Input, Select, Badge } from '../components/ui';
+import { Plus, Search, X, User } from 'lucide-react';
+import { Card, Button, Input, Select } from '../components/ui';
 import { useDataStore } from '../services/storage';
 import { Patient, Gender } from '../types';
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar as CalendarIcon, Clock, Plus, X } from 'lucide-react';
+import { Clock, Plus, X } from 'lucide-react';
 import { Card, Button, Input, Select, Badge } from '../components/ui';
 import { useDataStore } from '../services/storage';
 import { Appointment } from '../types';

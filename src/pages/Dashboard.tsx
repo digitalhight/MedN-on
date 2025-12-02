@@ -1,4 +1,3 @@
-import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { Users, Calendar, Activity, TrendingUp } from 'lucide-react';
 import { Card, Badge } from '../components/ui';

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Patient, Doctor, Appointment, MedicalRecord } from '../types';
 import { INITIAL_PATIENTS, INITIAL_DOCTORS, INITIAL_APPOINTMENTS, INITIAL_RECORDS } from '../constants';
 
